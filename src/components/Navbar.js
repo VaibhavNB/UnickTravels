@@ -6,7 +6,7 @@ const Navbar = (props) => {
 
   return (
     <>
-      <nav id="navbar" class="">
+      <nav id="navbar" className="sticky">
         <div class="nav-wrapper">
           
           <div class="logo">
