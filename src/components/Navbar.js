@@ -6,7 +6,7 @@ const Navbar = (props) => {
 
   return (
     <>
-      <nav id="navbar" className="sticky">
+      <nav id="navbar" className="drop-shadow-md">
         <div class="nav-wrapper">
           
           <div class="logo">
@@ -16,7 +16,7 @@ const Navbar = (props) => {
       
           
           <ul className="" id="menu">
-            <li><a href="#home">Home</a></li>
+            <li><a href="#Home">Home</a></li>
             <li><a href="#Packages">Packages</a></li>
             <li><a href="#Destinations">Destinations</a></li>
             <li><a href="#Vehicles">Vehicles</a></li>

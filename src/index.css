@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --first: #0E2954;
+  --second: #1F6E8C;
+  --third: #2E8A99;
+  --fourth: #84A7A1;
+  
+                   
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -9,6 +18,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: all;
+  transition-duration: 300ms;
+  transition: ease-in;
 }
 
 code {

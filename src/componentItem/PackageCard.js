@@ -2,7 +2,7 @@ import React from "react";
 
 const PackageCard = (props) => {
   return (
-    <div className="xl:w-1/4 md:w-1/2 p-4">
+    <div className="xl:w-1/4 md:w-1/2 sm:w-1/4 w-3/4  p-4 hover:-translate-y-2 transition-all duration-200 ease-in">
       <div className="bg-white pb-6 p-2 shadow-lg">
         <div className="ease-in duration-300 w-full h-40 overflow-hidden origin-center mb-3">
           <img
@@ -12,13 +12,13 @@ const PackageCard = (props) => {
           />
         </div>
         <div className="mx-6 mb-6">
-          <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
+          <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font text-start">
             {props.cardTitle}
           </h3>
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-start">
            {props.cardDesc}
           </h2>
-          <p className="leading-relaxed text-base">
+          <p className="leading-relaxed text-base text-start">
             {props.cardCont}
           </p>
         </div>
