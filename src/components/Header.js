@@ -12,12 +12,18 @@ const Header = (props) => {
           <h1 className="text-cyan-50 text-4xl sm:text-3xl md:text-7xl lg:text-8xl drop-shadow-lg">{props.title}</h1>
           <p className="text-cyan-50 text-lg sm:text-2xl md:text-4xl  lg:text-5xl pt-5 drop-shadow-xl">{props.subTitle}</p>
         </div>
-        <div className="btn my-10 flex justify-center">
+        <div className="btn mt-28 flex justify-evenly">
           <button
-            className="px-8 sm:px-16 py-3 rounded-md cursor-pointer hover:bg-cyan-50 hover:text-black text-cyan-50 sm:text-md md:text-lg lg:text-xl bg-[var(--first)] bg-opacity-75 ease-in duration-300 font-bold"
+            className=" py-3 rounded-md cursor-pointer hover:bg-cyan-50 hover:text-black text-cyan-50 sm:text-md md:text-lg lg:text-xl bg-[var(--first)] bg-opacity-75 ease-in duration-300 font-bold"
             type="submit"
           >
-            <a href="/">Explore More</a>
+            <a className="px-8 sm:px-16 " href="#Packages">Explore More</a>
+          </button>
+          <button
+            className="py-3 rounded-md cursor-pointer hover:bg-cyan-50 hover:text-black text-cyan-50 sm:text-md md:text-lg lg:text-xl bg-[var(--first)] bg-opacity-75 ease-in duration-300 font-bold"
+            type="submit"
+          >
+            <a className="px-8 sm:px-16 " href="#Packages">Book Now</a>
           </button>
         </div>
         <div className="w-full">

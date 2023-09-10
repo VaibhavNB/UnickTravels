@@ -1,5 +1,6 @@
 
 import './App.css';
+import Booking from './components/Booking';
 import DestinationSec from './components/DestinationSec';
 import Gallery from './components/Gallery';
 import Header from './components/Header';
@@ -15,7 +16,9 @@ function App() {
       <TrendingPackage title="Top Packages" subTitle="Choose from the below"/>
       <DestinationSec/>
       <VehiclesSec/>
+      <Booking/>
       <Gallery/>
+
     </div>
   );
 }
