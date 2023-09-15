@@ -9,7 +9,7 @@ const DestinationCard = (props) => {
             <img alt="gallery" class="rounded-md absolute inset-0 w-full h-full object-cover object-center"
               src={props.src} />
             <div className='relative w-full h-full opacity-0 ease-in duration-300 hover:opacity-100 p-4 flex flex-col justify-center align-middle bg-slate-200 bg-opacity-50 text-cyan-100'>
-              <h2 className='flex text-2xl font-bold'>
+              <h2 className='text-2xl font-bold'>
                 {props.title}
               </h2>
               <p className='text-sm font-bold'>

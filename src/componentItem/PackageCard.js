@@ -2,7 +2,7 @@ import React from "react";
 
 const PackageCard = (props) => {
   return (
-    <div className="xl:w-1/4 md:w-1/2 sm:w-1/4 w-3/4  p-4 hover:-translate-y-2 transition-all duration-200 ease-in">
+    <div className="w-3/4  p-4 hover:-translate-y-2 transition-all duration-200 ease-in">
       <div className="bg-white pb-6 p-2 shadow-lg">
         <div className="ease-in duration-300 w-full h-40 overflow-hidden origin-center mb-3">
           <img
@@ -11,7 +11,7 @@ const PackageCard = (props) => {
             alt="content"
           />
         </div>
-        <div className="mx-6 mb-6">
+        <div className="mx-6 mb-6 flex flex-wrap">
           <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font text-start">
             {props.cardTitle}
           </h3>

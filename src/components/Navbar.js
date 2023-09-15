@@ -21,6 +21,7 @@ const Navbar = (props) => {
             <li><a href="#Destinations">Destinations</a></li>
             <li><a href="#Vehicles">Vehicles</a></li>
             <li><a href="#Gallery">Gallery</a></li>
+            <li><a href="#Booking">Booking</a></li>
           </ul>
         </div>
       </nav>
