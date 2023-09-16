@@ -9,9 +9,9 @@ const Navbar = (props) => {
       <nav id="navbar" className="drop-shadow-md">
         <div class="nav-wrapper">
           
-          <div class="logo">
+          <div class="font-bold logo">
             
-            <a href="#home"><i class="fas fa-chess-knight"></i> UNICK-TRAVELS</a>
+            <a href="#home">UNICK-TRAVELS</a>
           </div>
       
           

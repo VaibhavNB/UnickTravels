@@ -1,8 +1,23 @@
-import React from 'react'
+import React, {useRef} from 'react';
+import emailjs from '@emailjs/browser';
 
 const Booking = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_j3zy3nf', 'template_c5yzfkf', form.current, 'mAYxjCUggmTwXOTlx')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+  
+  const email = 'unicktravelshub@gmail.com'
   return (
     <section id='Booking' class="text-gray-600 body-font relative">
+      <form ref={form} onSubmit={sendEmail}>
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-12">
       <h1 class="sm:text-3xl text-2xl title-font font-bold mb-4">Book Your Journey</h1>
@@ -10,6 +25,8 @@ const Booking = () => {
     </div>
     <div class="lg:w-1/2 md:w-2/3 mx-auto">
       <div class="flex flex-wrap -m-2">
+        
+      
         <div class="p-2 w-1/2">
           <div class="relative text-start">
             <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
@@ -42,12 +59,16 @@ const Booking = () => {
           </div>
         </div>
         <div class="p-2 w-full">
-          <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Get Respons</button>
+          <button type='submit' class="flex mx-auto text-white bg-[var(--first)] border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Get Respons</button>
         </div>
+
+      
+
+
         <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-          <a href='/' class="text-indigo-500">example@email.com</a>
-          <p class="leading-normal my-5">49 Smith St.
-            <br/>Saint Cloud, MN 56301
+          <a href='/' class="text-indigo-500">{email}</a>
+          <p class="leading-normal my-5">
+            <br/>Hubli, PIN: 580023
           </p>
           <span class="inline-flex">
             <a href='/' class="text-gray-500">
@@ -76,6 +97,7 @@ const Booking = () => {
       </div>
     </div>
   </div>
+  </form>
 </section>
   )
 }

@@ -9,7 +9,7 @@ const Header = (props) => {
        w-full">
         
         <div>
-          <h1 className="text-cyan-50 text-4xl sm:text-3xl md:text-7xl lg:text-8xl drop-shadow-lg">{props.title}</h1>
+          <h1 className="text-cyan-50 text-4xl font-extrabold sm:text-3xl md:text-7xl lg:text-8xl drop-shadow-lg">{props.title}</h1>
           <p className="text-cyan-50 text-lg sm:text-2xl md:text-4xl  lg:text-5xl pt-5 drop-shadow-xl">{props.subTitle}</p>
         </div>
         <div className="btn mt-28 flex justify-evenly">
@@ -23,7 +23,7 @@ const Header = (props) => {
             className="py-3 rounded-md cursor-pointer hover:bg-cyan-50 hover:text-black text-cyan-50 sm:text-md md:text-lg lg:text-xl bg-[var(--first)] bg-opacity-75 ease-in duration-300 font-bold"
             type="submit"
           >
-            <a className="px-8 sm:px-16 " href="#Packages">Book Now</a>
+            <a className="px-8 sm:px-16 " href="#Booking">Book Now</a>
           </button>
         </div>
         <div className="w-full">
