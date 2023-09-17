@@ -7,9 +7,9 @@ const Navbar = (props) => {
   return (
     <>
       <nav id="navbar" className="drop-shadow-md">
-        <div class="nav-wrapper">
+        <div className="nav-wrapper">
           
-          <div class="font-bold logo">
+          <div className="font-bold logo">
             
             <a className="hover:text-[var(--second)]" href="#home">UNICK-TRAVELS</a>
           </div>
@@ -26,13 +26,13 @@ const Navbar = (props) => {
         </div>
       </nav>
 
-      <div class="menuIcon">
-        <span class="icon icon-bars"></span>
-        <span class="icon icon-bars overlay"></span>
+      <div className="menuIcon">
+        <span className="icon icon-bars"></span>
+        <span className="icon icon-bars overlay"></span>
       </div>
       
       
-      <div class="overlay-menu">
+      <div className="overlay-menu">
         <ul id="menu">
             <li><a href="#home">Home</a></li>
             <li><a href="#services">Services</a></li>

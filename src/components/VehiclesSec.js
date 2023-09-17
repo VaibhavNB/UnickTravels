@@ -15,10 +15,10 @@ const VehiclesSec = () => {
   
   return (
     <>
-      <section id="Vehicles" class=" text-gray-600 body-font px-4 sm:px-36 flex justify-center">
-        <div class="container flex flex-col py-24">
-          <div class="flex flex-col justify-center text-center">
-            <h1 class="sm:text-3xl text-3xl font-bold title-font mb-8">
+      <section id="Vehicles" className=" text-gray-600 body-font px-4 sm:px-36 flex justify-center">
+        <div className="container flex flex-col py-24">
+          <div className="flex flex-col justify-center text-center">
+            <h1 className="sm:text-3xl text-3xl font-bold title-font mb-8">
               Our Vehicles
             </h1>
           </div>

@@ -13,14 +13,14 @@ const DestinationSec = () => {
   const title = "Destinations"
   return (
     <>
-    <section id="Destinations" class="text-gray-600 body-font px-0 sm:px-36">
-    <div class="container px-5 py-24 mx-auto">
-      <div class="flex flex-col text-center w-full mb-20">
-        <h1 class="sm:text-3xl text-3xl font-bold title-font mb-4">
+    <section id="Destinations" className="text-gray-600 body-font px-0 sm:px-36">
+    <div className="container px-5 py-24 mx-auto">
+      <div className="flex flex-col text-center w-full mb-20">
+        <h1 className="sm:text-3xl text-3xl font-bold title-font mb-4">
           {title}
         </h1>
       </div>
-      <div class="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center">
         
         <DestinationCard src={DestI1} title="Hubli"/>
         <DestinationCard src={DestI2} title="Dharwad"/>
