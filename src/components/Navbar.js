@@ -11,7 +11,7 @@ const Navbar = (props) => {
           
           <div class="font-bold logo">
             
-            <a href="#home">UNICK-TRAVELS</a>
+            <a className="hover:text-[var(--second)]" href="#home">UNICK-TRAVELS</a>
           </div>
       
           

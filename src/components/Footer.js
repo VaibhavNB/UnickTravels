@@ -12,8 +12,11 @@ const Footer = () => {
                 <li className='mx-3 my-2 text-start'><a href='#Gallery'>Gallery</a></li>
                 <li className='mx-3 my-2 text-start'><a href='#Booking'>Booking</a></li>
             </ul>
-        <p>&#169;All Rights are Reserved || 2023</p>
         </div>
+        <div>
+        
+        </div>
+        <p className='text-center'>&copy;||2023 All Rights Reserved</p>
 
     </div>
   )
